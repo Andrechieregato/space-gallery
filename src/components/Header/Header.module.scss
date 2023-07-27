@@ -48,3 +48,17 @@
     }
   }
 
+  @media only screen and (max-width:650px){
+    .header{
+      
+      &__container{
+        display:none;
+      }
+
+      &__logo{
+        width:140px;
+        height:50px;
+      }
+    }
+  }
+

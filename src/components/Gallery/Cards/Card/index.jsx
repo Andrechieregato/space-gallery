@@ -11,8 +11,8 @@ function Card({styles, photo}) {
             <div>
                 <p>{photo.creditos}</p>
                 <span>
-                    <img src={favorito} alt="icone coracao de curtir"/>
-                    <img src={open} alt="icone de abrir modal"/>
+                    <img className={styles.galeria__favorito} src={favorito} alt="icone coracao de curtir"/>
+                    <img className={styles.galeria__favorito} src={open} alt="icone de abrir modal"/>
                 </span>
             </div>
         </li>

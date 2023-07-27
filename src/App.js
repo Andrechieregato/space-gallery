@@ -5,7 +5,9 @@ import InitialPage from './pages/InitialPage'
 
 function App() {
   return (
-      <InitialPage />
+      <div className="app">
+        <InitialPage />
+      </div>
   );
 }
 

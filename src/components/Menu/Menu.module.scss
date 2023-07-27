@@ -40,3 +40,9 @@
       font-family: $fonte-normal;
     }
   }
+
+  @media only screen and (max-width:650px){
+    .menu{
+      display:none;
+    }
+  }

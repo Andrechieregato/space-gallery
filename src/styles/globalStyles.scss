@@ -10,6 +10,11 @@ body {
     font-family: $fonte-normal;
   }
 
+  ul{
+    margin:0;
+    padding:0;
+  }
+
 
 body::-webkit-scrollbar{
   width:3px;
@@ -39,4 +44,6 @@ body::-webkit-scrollbar-track{
   font-weight:500;
   font-display:swap;
 }
+
+
 
